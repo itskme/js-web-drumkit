@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "rbno2";
+  src: url(rbno2.otf);
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "rbno2", sans-serif;
     text-align: center;
+    font-size:x-large;
   }
   
   .drum-kit {
@@ -14,16 +20,17 @@ body {
     width: 100px;
     height: 100px;
     margin: 10px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
+    background-color: #000000;
+    color: #e6e4e4;
+    border-radius: 8px;
+    cursor:default;
+    padding-top: 80px;
   }
   
   .drum-pad:hover {
-    background-color: #444;
+    background-color: a#ff6f00;
   }
   
   .drum-pad:active {
-    background-color: #555;
+    background-color: #ff6f00;
   }
